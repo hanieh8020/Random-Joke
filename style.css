@@ -1,0 +1,75 @@
+ @import url(https://fonts.googleapis.com);
+
+ @font-face {
+    font-family: Poppins-Medium;
+    src: url(Poppins/Poppins-Medium.ttf);
+ }
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ html {
+    font-size: 10px;
+    font-family: 'Montsrrat', sans-serif;
+ }
+
+ body {
+    background-color: rgb(37, 38, 39);
+    background-image: linear-gradient(to right, #353A5F, #9EBAF3);
+    color: white;
+ }
+
+ section {
+    min-width: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+/* css container */
+ .container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(51, 55, 59);
+    border-radius: 8px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ #glass {
+ background-color: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+ }
+/*  container p */
+ .container p {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    text-align: justify;
+ }
+
+ /* css button */
+ button {
+    margin-top: 20px;
+    width: fit-content;
+    padding: 10px;
+    font-size: 19px;
+    background-color: #00a6c0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+
+ }
